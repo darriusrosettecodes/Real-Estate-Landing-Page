@@ -27,7 +27,7 @@ nav ul li a{
   text-decoration: none;
   font-size: 1.2rem;
   color: grey;
-
+  cursor: pointer;
 }
 nav ul li button{
   background: linear-gradient(97.05deg, #4066ff 3.76%, #2949c6 100%);
@@ -54,6 +54,7 @@ nav .menu-bars{
   display: none;
   color: grey;
   font-size: 1.3rem;
+  cursor: pointer;
 }
 
 /* HERO SECTION */
