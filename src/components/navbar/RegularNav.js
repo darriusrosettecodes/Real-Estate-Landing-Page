@@ -25,20 +25,20 @@ export default function Navbar() {
           <img src={Logo} alt='logo'/>
 
           <ul className='regular-nav'>
-            <li><a href='#' onClick={() => scrollToSection('residencies')}>Residencies</a></li>
-            <li><a href='#' onClick={() => scrollToSection('value')}>Our Value</a></li>
-            <li><a href='#' onClick={() => scrollToSection('contact')}>Contact Us</a></li>
-            <li><a href='#' onClick={() => scrollToSection('get-started')}>Get Started</a></li>
+            <li><a  onClick={() => scrollToSection('residencies')}>Residencies</a></li>
+            <li><a  onClick={() => scrollToSection('value')}>Our Value</a></li>
+            <li><a  onClick={() => scrollToSection('contact')}>Contact Us</a></li>
+            <li><a  onClick={() => scrollToSection('get-started')}>Get Started</a></li>
             <li><button>Contact</button></li>
           </ul>
 
           <i class={menuOpen ? "fa-solid fa-xmark menu-bars" : "fa-solid fa-bars menu-bars"} onClick={toggleMenu}></i>
 
           <ul style={styles} className='menu-nav'>
-          <li><a href='#' onClick={() => scrollToSection('residencies')}>Residencies</a></li>
-            <li><a href='#' onClick={() => scrollToSection('value')}>Our Value</a></li>
-            <li><a href='#' onClick={() => scrollToSection('contact')}>Contact Us</a></li>
-            <li><a href='#' onClick={() => scrollToSection('get-started')}>Get Started</a></li>
+          <li><a  onClick={() => scrollToSection('residencies')}>Residencies</a></li>
+            <li><a  onClick={() => scrollToSection('value')}>Our Value</a></li>
+            <li><a  onClick={() => scrollToSection('contact')}>Contact Us</a></li>
+            <li><a  onClick={() => scrollToSection('get-started')}>Get Started</a></li>
             <li><button>Contact</button></li>
           </ul>
         </nav>
