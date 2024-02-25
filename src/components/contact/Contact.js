@@ -33,7 +33,7 @@ export default function Contact() {
                 </div>
             </div>
             <div className="right">
-                <img src={ContactImg} />
+                <img src={ContactImg} alt="contactimg"/>
             </div>
         </section>
     )
