@@ -38,7 +38,7 @@ export default function Hero() {
 
             <div className="right">
                 <center>
-                    <img src={HeroImage} />
+                    <img src={HeroImage} alt="heroimg"/>
                 </center>
             </div>
         </main>
