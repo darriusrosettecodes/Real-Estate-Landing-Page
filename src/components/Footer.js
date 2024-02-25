@@ -5,7 +5,7 @@ export default function Footer() {
     return(
         <footer>
             <div className="left">
-                <img src={Logo} />
+                <img src={Logo} alt="footerlogo"/>
                 <p>Our vision is to make all people the best place to live for them.</p>
             </div>
 
