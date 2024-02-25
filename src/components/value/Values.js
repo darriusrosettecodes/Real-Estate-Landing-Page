@@ -12,7 +12,7 @@ export default function Value() {
     return(
         <section className="values" id="value">
             <div className="left">
-                <img src={ValuesImg} />
+                <img src={ValuesImg} alt="valuesimg"/>
             </div>
 
             <div className="right">
